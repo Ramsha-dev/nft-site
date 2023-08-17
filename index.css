@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2b2838;
+    margin: 0
+}
+
+header {
+    background-color: #5f2983;
+}
+
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 36px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    color: #d0aaff;
+    font-size: 20px;
+}
+
+.sneaker-img {
+    width: 100%;
+}
+
+p {
+    line-height: 23px;
+    ;
+}
+
+a {
+    color: #ef5839;
+    text-decoration: underline dotted;
+}
+
+p a:hover,
+p a:active {
+    color: #d4b44c;
+
+}
+
+.sub-content {
+    background-color: #5f2983;
+    color: whitesmoke;
+}
+
+.subsection-img {
+    width: 300px;
+    border-radius: 4.6px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+    color: #5f2983;
+}
+
+header,
+section,
+footer {
+    padding: 45px 0;
+}
+
+.link-btns{
+    padding: 10px 19px;
+    border-radius: 4.6px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.link-btns:hover,
+.link-btns:active{
+    background-color: #f3e885;
+    color: #2b2838;
+}
+
+.buy-link {
+    background-color: #5f2983;
+    color: whitesmoke;
+}
+
+.info-link,
+.contact-link {
+    background-color: #f0e0ff;
+    color: #5f2983;
+}
+
+.about-link {
+    background-color: whitesmoke;
+    color: #5f2983;
+}
